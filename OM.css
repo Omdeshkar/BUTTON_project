@@ -1,0 +1,31 @@
+.button {
+     background-color: aqua;
+     padding: 20px 30px;
+     text-align: center;
+     cursor: pointer;
+     font-size: 25px;
+     border-radius: 20px;
+     color: greenyellow;
+     box-shadow: 0px 10px; 
+     box-shadow:darkgray;
+
+    
+}
+
+/*@Hover on button*/
+
+.button:hover
+{
+    background-color: darkcyan;
+
+}
+
+/*@ When button is clicked*/
+.button:active
+{
+    background-color: darkcyan;
+    box-shadow:0px 5px rgb(25, 25, 25);
+    transform: translate(5px);
+
+
+}
